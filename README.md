@@ -33,13 +33,13 @@ USE library;
     name VARCHAR(100)
 );
 
-CREATE TABLE books (
+- CREATE TABLE books (
     id INT AUTO_INCREMENT PRIMARY KEY,
     title VARCHAR(150),
     author VARCHAR(100)
 );
 
-CREATE TABLE issues (
+- CREATE TABLE issues (
     id INT AUTO_INCREMENT PRIMARY KEY,
     member_id INT,
     book_id INT,
@@ -49,9 +49,9 @@ CREATE TABLE issues (
 );
 
 3. Configure Database Connection in Java:
-String url = "jdbc:mysql://localhost:3306/library";
-String user = "admin";
-String password = "admin123";
+String DB_URL = "jdbc:mysql://localhost:3306/library";
+String USER = "root";
+String PASS = "your password here";
 
 4. Run the application
 - Open the project in IntelliJ IDEA.
@@ -62,4 +62,7 @@ String password = "admin123";
 Angadi Anjali
 📧 2210030411cse@gmail.com
 🔗 LinkedIn : www.linkedin.com/in/angadi-anjali
+
+📜 License
+This project is licensed under the MIT License – see the LICENSE file for details.
 
