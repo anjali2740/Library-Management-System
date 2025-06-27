@@ -23,14 +23,12 @@ A Java-based Library Management System with MySQL integration to handle book and
    cd library-management-system
 
 2. **Set up the MySQL database**
-   - Login to MySQL using:
-Username: admin
-Password: admin123
+   - Login to MySQL using your credentials.
    - Execute the following SQL commands:
-CREATE DATABASE library;
+- CREATE DATABASE library;
 USE library;
 
-CREATE TABLE members (
+- CREATE TABLE members (
     id INT AUTO_INCREMENT PRIMARY KEY,
     name VARCHAR(100)
 );
